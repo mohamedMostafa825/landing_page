@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  font-size: 18px;
+  padding: 32px 96px;
+  margin-bottom: 48px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 96px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-right: auto;
+}
+
+a {
+  color: #e5e7eb;
+}
+
+.header-body {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 96px;
+}
+
+.header-body-description {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  margin-bottom: 12px;
+}
+
+button {
+  padding: 8px 48px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 16px;
+  font-weight: 700;
+  border: solid #3882f6;
+  border-radius: 8px;
+}
+
+.header-body img {
+  flex: 1;
+}
+
+.information {
+  text-align: center;
+  padding: 0px 96px;
+  margin: 48px 96px 128px;
+}
+
+.information-heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 48px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.information img {
+  width: 160px;
+  border-radius: 5px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 96px 96px;
+}
+.testimonial-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  margin: 0 96px;
+}
+.testimonial-author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: end;
+  margin: 0 96px;
+}
+
+.call-to-action {
+  color: #f9faf8;
+  background-color: #3882f6;
+  margin: 96px 96px;
+  padding: 48px 96px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call-to-action h3 {
+  margin-bottom: 5px;
+}
+
+.call-to-action button {
+  border: 2px solid #f9faf8;
+}
+
+.footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 32px;
+}
